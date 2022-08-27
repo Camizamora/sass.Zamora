@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Uchen&display=swap");
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: "Uchen", serif; }
+
+header {
+  height: 18vh;
+  background-color: #e6beae;
+  display: flex;
+  align-items: center; }
+  header h1 {
+    color: #eee4e1;
+    text-transform: uppercase;
+    font-family: "Shadows Into Light", cursive;
+    font-size: 4rem;
+    padding-left: 3rem;
+    text-shadow: 1px 2px black; }
+  header nav {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 3rem; }
+    header nav li {
+      display: inline-block;
+      padding-right: 2rem; }
+      header nav li a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-shadow: 1px 2px #eee4e1;
+        font-size: 2.5rem; }
+        header nav li a:hover {
+          color: rgba(0, 0, 0, 0.7); }
+
+.carouselIndex {
+  height: 60rem;
+  width: 100%; }
+
+footer {
+  background-color: #e6beae;
+  height: 15vh;
+  width: 100%;
+  text-align: center; }
+  footer h2 {
+    padding-top: 1rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold; }
+  footer li {
+    display: inline-block; }
+    footer li .redes {
+      width: 4rem;
+      margin-right: 2rem; }
+      footer li .redes:hover {
+        opacity: 80%; }
