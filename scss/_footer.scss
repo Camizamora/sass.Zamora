@@ -1,0 +1,26 @@
+footer {
+    background-color: #e6beae;
+    height: 15vh;
+    width: 100%;
+    text-align: center;
+
+    h2 {
+        padding-top: 1rem;
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    li {
+        display: inline-block;
+
+        .redes {
+            width: 4rem;
+            margin-right: 2rem;
+
+            &:hover {
+                opacity: 80%;
+            }
+        }
+    }
+}

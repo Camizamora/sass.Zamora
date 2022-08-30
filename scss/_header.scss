@@ -1,0 +1,41 @@
+header {
+    height: 18vh;
+    background-color: #e6beae;
+    display: flex;
+    align-items: center;
+
+    h1 {
+        color: #eee4e1;
+        text-transform: uppercase;
+        font-family: $font-shadow;
+        font-size: 4rem;
+        padding-left: 3rem;
+        text-shadow: 1px 2px black;
+    }
+
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding-right: 3rem;
+
+        li {
+            display: inline-block;
+            padding-right: 2rem;
+
+            a {
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+                text-transform: uppercase;
+                text-shadow: 1px 2px #eee4e1;
+                font-size: 2.5rem;
+
+                &:hover {
+                    color: rgba(0, 0, 0, 0.7);
+                }
+            }
+        }
+    }
+}
